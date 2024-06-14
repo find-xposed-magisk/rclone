@@ -1,3 +1,21 @@
+<div align="center">
+<sup>Special thanks to our sponsor:</sup>
+<br>
+<br>
+<a href="https://www.warp.dev/?utm_source=github&utm_medium=referral&utm_campaign=rclone_20231103">
+  <div>
+    <img src="https://rclone.org/img/logos/warp-github.svg" width="300" alt="Warp">
+  </div>
+  <b>Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster.</b>
+  <div>
+    <sup>Visit warp.dev to learn more.</sup>
+  </div>
+</a>
+<br>
+<hr>
+</div>
+<br>
+
 [<img src="https://rclone.org/img/logo_on_light__horizontal_color.svg" width="50%" alt="rclone logo">](https://rclone.org/#gh-light-mode-only)
 [<img src="https://rclone.org/img/logo_on_dark__horizontal_color.svg" width="50%" alt="rclone logo">](https://rclone.org/#gh-dark-mode-only)
 
@@ -45,6 +63,7 @@ Rclone *("rsync for cloud storage")* is a command-line program to sync files and
   * HiDrive [:page_facing_up:](https://rclone.org/hidrive/)
   * HTTP [:page_facing_up:](https://rclone.org/http/)
   * Huawei Cloud Object Storage Service(OBS) [:page_facing_up:](https://rclone.org/s3/#huawei-obs)
+  * ImageKit [:page_facing_up:](https://rclone.org/imagekit/)
   * Internet Archive [:page_facing_up:](https://rclone.org/internetarchive/)
   * Jottacloud [:page_facing_up:](https://rclone.org/jottacloud/)
   * IBM COS S3 [:page_facing_up:](https://rclone.org/s3/#ibm-cos-s3)
@@ -54,6 +73,7 @@ Rclone *("rsync for cloud storage")* is a command-line program to sync files and
   * Liara Object Storage [:page_facing_up:](https://rclone.org/s3/#liara-object-storage)
   * Linkbox [:page_facing_up:](https://rclone.org/linkbox)
   * Linode Object Storage [:page_facing_up:](https://rclone.org/s3/#linode)
+  * Magalu Object Storage [:page_facing_up:](https://rclone.org/s3/#magalu)
   * Mail.ru Cloud [:page_facing_up:](https://rclone.org/mailru/)
   * Memset Memstore [:page_facing_up:](https://rclone.org/swift/)
   * Mega [:page_facing_up:](https://rclone.org/mega/)
@@ -91,6 +111,7 @@ Rclone *("rsync for cloud storage")* is a command-line program to sync files and
   * SugarSync [:page_facing_up:](https://rclone.org/sugarsync/)
   * Synology C2 Object Storage [:page_facing_up:](https://rclone.org/s3/#synology-c2)
   * Tencent Cloud Object Storage (COS) [:page_facing_up:](https://rclone.org/s3/#tencent-cos)
+  * Uloz.to [:page_facing_up:](https://rclone.org/ulozto/)
   * Wasabi [:page_facing_up:](https://rclone.org/s3/#wasabi)
   * WebDAV [:page_facing_up:](https://rclone.org/webdav/)
   * Yandex Disk [:page_facing_up:](https://rclone.org/yandex/)
@@ -119,6 +140,7 @@ These backends adapt or modify other storage providers
   * Partial syncs supported on a whole file basis
   * [Copy](https://rclone.org/commands/rclone_copy/) mode to just copy new/changed files
   * [Sync](https://rclone.org/commands/rclone_sync/) (one way) mode to make a directory identical
+  * [Bisync](https://rclone.org/bisync/) (two way) to keep two directories in sync bidirectionally
   * [Check](https://rclone.org/commands/rclone_check/) mode to check for file hash equality
   * Can sync to and from network, e.g. two different cloud accounts
   * Optional large file chunking ([Chunker](https://rclone.org/chunker/))
